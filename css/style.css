@@ -1,0 +1,800 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+.div-model{
+    height: 500px !important;
+}
+.div-model .modal-dialog .modal-content{
+    width: 450px !important;
+}
+.div-model .modal-dialog .modal-content .modal-header{
+    height: 60px !important;
+}
+.div-model .modal-dialog .modal-content .model-body{
+    height: 200px !important;
+}
+.modal-dialog .modal-content .model-body input{
+    height: 35px !important;
+    width: 88% !important;
+}
+.div-model .modal-dialog .modal-content .modal-footer{
+    width: 90% !important;
+    height: 85px !important;
+}
+.modal-content .modal-footer .btn1 , .modal-content .modal-footer .btn2{
+    width: 80px !important;
+    font-size: 17px !important;
+}
+.modal-content .modal-footer .btn1{
+    margin-right: 241px !important;
+}
+.modal-content .form-check{
+    height: 40px !important;
+}
+.first-icon{
+    height: 400px !important;
+    z-index: 5 !important;
+}
+.main-icon-1{
+    top: 100% !important;
+    left: 98.5% !important;
+    transform: translate(-98.5% , -100%);
+}
+.main-icon-1 a i {
+    color: #558672 !important;
+}
+.main-icon-1 a i:hover{
+    color: #058666 !important;
+}
+.nan-bar{
+    
+    backdrop-filter: blur(100px) !important;
+    border: 1px solid rgba(255,255,255,.1) !important;
+    border-radius: 5px !important;
+    height: 60px !important;
+}
+.nan-bar-1{
+    background-color: rgba(96, 139, 123, 0.7) !important;
+    color: rgb(14, 95, 64) !important;
+}
+.nav-img{
+    width: 150px !important;
+    height: 100% !important;
+    margin-left: 50px !important;
+}
+.main .carousel-inner .carousel-item  , .main .carousel-inner , .main {
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+.main .carousel-inner .carousel-item img{
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.menu .ui-menu{
+    margin-top: 10px !important;
+    background-color: rgba(158, 182, 173, 0.7) !important;
+}
+.menu .ui-menu li{
+    height: 35px !important;
+}
+.menu .ui-menu li a{
+    height: 30px !important;
+    color: rgb(4, 43, 28) !important;
+}
+.menu .ui-menu li a:hover{
+    background-color: rgb(14, 95, 64) !important;
+    color: white !important;  
+}
+.main div .main-btn{
+    width: 50px !important;
+    height: 22px !important;
+    margin: 0px 10px !important;
+    background-color: rgb(14, 95, 64) !important;
+}
+.carousel-inner{
+    position: relative !important;
+}
+.carousel-inner .carousel-caption{
+    top: 95% !important;
+    left: 50% !important;
+    transform: translate(-50% , -95%) !important;
+    position: absolute !important;
+    
+}
+.carousel-caption{
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255,255,255,.1) !important;
+    border-radius: 5px !important;
+    height: 30vh !important;
+    width: 75% !important;
+    position: relative !important;
+}
+.nan-bar .menu ul li .nav-link:hover{
+    color:rgb(14, 95, 64) !important;
+}
+.nan-bar .menu ul li .foc:focus{
+    color:rgb(14, 95, 64) !important;
+}
+.dropdown-menu{
+    border-radius: 0px 0px 5px 5px !important;
+}
+.carousel-caption p {
+    color:rgb(11, 70, 47) !important;
+}
+.carousel-caption .btn-1{
+    width: 120px !important;
+    height: 35px !important;
+    font-size: 20px !important;
+    background-color: rgb(14, 95, 64) !important;
+}
+.carousel-caption .btn-2{
+    width: 120px !important;
+    height: 35px !important;
+    font-size: 20px !important;
+    border: 1px solid rgb(14, 95, 64) !important;
+}
+.carousel-caption .btn-2:hover{
+    background-color: rgb(14, 95, 64) !important;
+}
+/* /////////////////////////////////////////////////////////// */
+.sec-div-2{
+    position: relative !important;
+    height: 40vh !important;
+    background-color:rgba(140, 184, 168,.5) !important ;
+}
+.sec-div-2 h2 {
+    background: linear-gradient(to bottom , #6cecb7 0%, #003118 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+    font-weight: bold !important;
+}
+.sec-div-2 p{
+    font-size: clamp(.8rem, 2.5vw, 1rem) !important;
+}
+.accordion{
+    border-radius: 10px !important;
+}
+.accordion .accordion-item .accordion-header .accordion-button{
+    background-color: rgb(50, 131, 100) !important ;
+    border-radius: 10px !important;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body{
+    background: -moz-linear-gradient(top,rgb(112, 161, 145) ,rgb(174, 212, 193),rgb(234, 243, 239)) !important; 
+    border-radius: 10px !important;
+}
+.sec-div-3{
+    height: 25vh !important;
+    background-color:rgb(140, 184, 168) !important ;
+}
+.sec-div-3 h2{
+    background: linear-gradient(to bottom , #6cecb7 0%, #003118 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+    font-weight: bold !important;
+    font-size: 38px !important;
+}
+.sec-div-1-1{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+/* ////////////////////////////////////////////////////////// */
+.sec-5{
+    border-radius: 10px 10px 0px 0px !important;
+}
+.sec-5-div2{
+    height: 95% !important;
+    background-color:rgb(140, 184, 168) !important ;
+    border-radius: 10px  !important;
+}
+.sec-5-1 h2{
+    background: linear-gradient(to bottom , #6cecb7 0%, #003118 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+    font-size: clamp(1.5rem, 2.5vw, 1.8rem) !important;
+}
+.sec-5-div{
+    height: 50vh !important;
+    background: -moz-linear-gradient(bottom,rgb(94, 143, 127) ,rgb(174, 212, 193),rgb(207, 231, 219)) !important; 
+    border-radius: 0px 0px 10px 10px !important;
+}
+.sec-5-div .sec-5-div-5{
+    width: 90% !important;
+}
+.sec-5-div-5 h2{
+    color: rgb(14, 95, 64) !important;
+   
+}
+.sec-5-div .sec-5-div-5 .btn1{
+    width: 100px !important;
+    height: 40px !important;
+    background-color: rgb(50, 131, 100) !important ;
+    border-radius: 5px !important;
+    font-size: 22px !important;
+    position: relative !important;
+}
+.sec-5-div .sec-5-div-5 .btn1 .spn2{
+    width: 80px !important;
+    height: 40px !important;
+    position: absolute !important;
+    background-color: #72ac94 !important;
+    font-size:  0.8rem !important;
+    border-radius: 0px 5px 5px 5px !important;
+    top: 92% !important;
+    left: 101% !important;
+    visibility: hidden !important;
+    transition: 0s !important;
+}
+.sec-5-div-5 .btn1:hover .spn2{
+    visibility: visible !important;
+}
+.sec-5-div .sec-5-div-5 .btn1 .spn1{
+    width: 60px !important;
+    height: 30px !important;
+    position: absolute !important;
+    background-color: #72ac94 !important;
+    font-size:  0.8rem !important;
+    border-radius: 0px 5px 5px 5px !important;
+    padding-top: 3px !important;
+    top: 92% !important;
+    left: 101% !important;
+    visibility: hidden !important;
+    transition: 1s !important;
+}
+.sec-5-div-5 .btn1:active .spn1{
+    visibility: visible !important;
+}
+[data-bs-toggle="tooltip"]{
+    width: 300px !important;
+    height: 100px !important;
+}
+.sec-5-div .sec-5-div-1{
+    width: 90% !important;
+    height:25vh !important ;
+    border-radius: 0px 0px 10px 10px !important;
+    background-color: rgb(238, 248, 244) !important ;
+}
+.sec-5-div .sec-5-div-1 textarea{
+    width: 100% !important;
+    height:100% !important ;
+    background-color: rgb(238, 248, 244) !important ;
+    border-radius: 0px 0px 10px 10px !important;
+    border: 1px solid rgb(238, 248, 244) !important ;
+    font-size: 22px !important;
+}
+/* ////////////////////// */
+.sec-6{
+    width: 100vw !important;
+    height: 50vh !important;
+    background: url(../Images/Sec-7-3.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+.sec-6 .sec-6-overlay{
+    width: 100vw !important;
+    height: 50vh !important;
+    background-color: rgba(3, 3, 3, .3) !important;
+    z-index: 2 !important;
+}
+.sec-6-overlay .h2-overlay{
+    font-size: 60px !important;
+    letter-spacing: 4px !important;
+    transition: .5s !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+.sec-6:hover .sec-6-overlay .h2-overlay{
+    transition: .5s !important;
+    letter-spacing: 8px !important;
+    font-weight: 700px !important;
+}
+/* ///////////////////////////////////////////////////////////// */
+.sec-7-special h2{
+    background: linear-gradient(to bottom , #49a780 0%, #003118 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
+.card-1 .card{
+    width: 340px !important;
+    height: 515px !important;
+    position:  relative !important;
+    border-radius: 0px !important;
+}
+.card-1 .card::after{
+    content: "" !important;
+    position: absolute !important;
+    z-index: 3 !important;
+    width: 0% !important;
+    height: 0% !important;
+    bottom: 0 !important;
+    left:0 !important;
+    background-color: rgba(50, 131, 100,.2) !important ;
+    transition: .5s;
+}
+.card-1 .card:hover:after{
+    width: 100% !important;
+    height: 100% !important;
+    transition: .5s;
+}
+.card-1 .card::before{
+    content: "" !important;
+    position: absolute !important;
+    z-index: 3 !important;
+    width: 0% !important;
+    height: 0% !important;
+    top: 0 !important;
+    right:0 !important;
+    background-color: rgba(50, 131, 100,.2) !important ;
+    transition: .5s;
+}
+.card-1 .card:hover::before{
+    width: 100% !important;
+    height: 100% !important;
+    transition: .5s;
+}
+.card-1 .card:hover .card-body h5 a{
+    position: absolute !important;
+    z-index: 10 !important;
+}
+.card-1 .card:hover{
+    border: 1px solid rgba(50, 131, 100,.2) !important;
+}
+.card-div{
+    width: 85% !important;
+    height: 350px !important;
+}
+.card .card-body h5 a{
+    position: absolute !important;
+    margin-left: 120px !important;
+    margin-top: -16px !important;
+    height: 40px !important;
+    width: 100px !important;
+    border: 1px solid rgb(50, 131, 100) !important;
+    color: rgb(50, 131, 100) !important;
+    font-size: 17px !important;
+}
+.card .card-body h5{
+    position: relative;
+}
+.card .card-body h5 a::after{
+    content: "" !important;
+    position: absolute !important;
+    z-index: -1 !important;
+    width: 100% !important;
+    height: 0% !important;
+    bottom: 0 !important;
+    left:0 !important;
+    background-color: rgb(50, 131, 100) !important ;
+    transition: .5s;
+}
+.card .card-body h5 a:hover:after{
+    width: 100% !important;
+    height: 50% !important;
+    transition: .5s;
+    color: white !important;
+}
+.card .card-body h5 a::before{
+    content: "" !important;
+    position: absolute !important;
+    z-index: -1 !important;
+    width: 100% !important;
+    height: 0% !important;
+    top: 0 !important;
+    left:0 !important;
+    background-color: rgb(50, 131, 100) !important ;
+    transition: .5s;
+}
+.card .card-body h5 a:hover::before{
+    width: 100% !important;
+    height: 50% !important;
+    transition: .5s;
+    color: white !important;
+}
+.card .card-body h5 a:hover{
+    color: white !important;
+    position: absolute;
+    z-index: 6 !important;
+    transition: .6s !important;
+}
+.card-2{
+    margin-right: 120px !important;
+}
+
+/* ////////////////////////////////////////////////////// */
+.sec-8{
+    width: 100vw !important;
+    height: 50vh !important;
+    background:url(../Images/Sec-7-4.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+.sec-8-overlay{
+    width: 100vw !important;
+    height: 50vh !important;
+    background-color: rgba(3, 3, 3, .3) !important;
+    z-index: 2 !important;
+}
+.sec-8-overlay .sec-8-icon{
+    height: 70% !important;
+    width: 80% !important;
+}
+.sec-8-overlay .sec-8-icon .sec-8-icon-1{
+    width: 25% !important;
+    height: 100% !important;
+}
+.sec-8-overlay .sec-8-icon .sec-8-icon-1 h2{
+    font-size: 35px !important;
+}
+.sec-8-overlay .sec-8-icon .sec-8-icon-1 i{
+    color: rgb(189, 132, 67) !important;
+}
+/* ////////////////////////////////////////////////////// */
+.sec-9 h2{
+    background: linear-gradient(to bottom , #6cecb7 0%, #003118 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+    font-weight: bold !important;
+    font-size: 38px !important;
+}
+.sec-9-1{
+    width: 300px !important;
+    height: 450px !important;
+    transition: .5s !important;
+    border-radius: 30px !important;
+}
+.sec-9-1:hover{
+    transform: scale(.85) !important;
+    transition: .5s !important;
+}
+.sec-9-1 .sec-9-img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 30px !important;
+}
+.sec-9-1 .sec-9-img-1{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(3, 3, 3,.7) !important;
+    z-index: 5 !important;
+    border-radius: 30px !important;
+    transition: .5s !important;
+}
+.sec-9-1 .sec-9-img img{
+    border-radius: 30px !important;
+}
+.sec-9-1 .sec-9-img-s{
+    width: 100px !important;
+    height: 140px !important;
+    z-index: 6 !important;
+   margin-bottom: 10px !important;
+}
+.sec-9-1 .title1{
+    width: 300px !important;
+}
+.sec-9-1:hover .sec-9-img-1{
+    transform: scale(0) !important;
+    transition: .5s !important;
+}
+.sec-9-1 .sec-9-img-3{
+    transition: .6s !important;
+}
+.sec-9-1:hover .sec-9-img-3{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(3, 3, 3,.7) !important;
+    z-index: 5 !important;
+    transition: .6s !important;
+}
+/* ////////////////////////////////////////////////////// */
+.sec-10{
+    background: -moz-linear-gradient(left,rgb(191, 221, 205) ,rgb(224, 243, 235) ,rgb(249, 253, 251)) !important;
+    background: -webkit-linear-gradient(left,rgb(191, 221, 205) ,rgb(224, 243, 235) ,rgb(249, 253, 251)) !important;
+    box-shadow: -3px -3px 8px 1px #99c9b5   !important ;
+    overflow: hidden !important;
+    
+}
+.sec-10-2{
+    background: -moz-linear-gradient(right,rgb(191, 221, 205) ,rgb(224, 243, 235) ,rgb(249, 253, 251)) !important;
+    background: -webkit-linear-gradient(right,rgb(191, 221, 205) ,rgb(224, 243, 235) ,rgb(249, 253, 251)) !important;
+    box-shadow: 3px 3px 8px 1px #99c9b5   !important ;
+    overflow: hidden !important;
+}
+.sec-10 .sec-10-1{
+    width: 100% !important;
+    height: 59vh !important;
+    overflow: hidden !important;
+}
+.sec-10 .sec-10-1 .sec-10-news{
+    width: 72% !important;
+    height: 100% !important;
+}
+.sec-10 .sec-10-1 .sec-10-img{
+    width: 28% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    clip-path: polygon(15% 0% , 100% 0%  , 100% 100%, 20% 100%, 0% 0% );
+}
+.sec-10:hover .sec-10-1 .sec-10-img img {
+   transform: scale(1.4) !important; 
+}
+.sec-10 .sec-10-1 .sec-10-img img{
+    transition: .5s ease !important;
+    object-fit: cover !important;
+    transform: translate(1,1) !important;
+}
+/*/////////////////////////////// */
+.news-div h2{
+    background: linear-gradient(to bottom , #6cecb7 0%, #003118 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+.news-div .line{
+    width: 100px !important;
+    height: 4px !important;
+   background-color:  rgb(14, 95, 64) !important;  
+}
+.news-div .pragragh-p p{
+    font-size: clamp(.5rem, 2.5vw, 1rem) !important;
+}
+.news-div .sec-10-icon .icon-10{
+    width: 120px !important;
+    height: 35px !important;
+    background-color: #96b3a6 !important;
+}
+.news-div .sec-10-icon .icon-10 a i , .news-div .sec-10-icon .icon-10 a span{
+    color: #273d32 !important;
+    font-size: clamp(.5rem, 2.5vw, 1rem) !important;
+}
+.news-div .sec-10-icon .icon-10:hover{
+    background-color: #1b553b !important;
+}
+.news-div .sec-10-icon .icon-10:hover a i , .news-div .sec-10-icon .icon-10:hover a span{
+    color: white !important;
+}
+/* //////////////////////////////////// */
+.sec-10 .sec-10-1 .sec-10-img-2{
+    width: 28% !important;
+    height: 100% !important;
+    overflow: hidden;
+    clip-path: polygon(100% 0% , 100% 0%  , 80% 100%, 0% 100%, 0% 0% );
+}
+.sec-10:hover .sec-10-1 .sec-10-img-2 img {
+    transform: scale(1.4) !important; 
+ }
+ .sec-10 .sec-10-1 .sec-10-img-2 img{
+     transition: .5s ease !important;
+     object-fit: cover !important;
+     transform: translate(1,1) !important;   
+ }
+ /* /////////////////////////////////////////////////// */
+ .sec-11 .sec-11-icon .icon-join{
+    width: 230px !important;
+    height: 35vh !important;
+    border: 1px solid rgba(219, 241, 231 ,.5) !important;
+ }
+ .sec-11 .sec-11-icon .icon-join:hover{
+    border: none !important;
+    background-color: rgba(119, 219, 174, 0.1) !important;
+    transform: scale(1.050,1.050) !important;
+ }
+ .sec-11-icon .icon-join h4{
+    color: #1b553b !important;
+ }
+ .sec-11-icon .icon-join p a{
+    font-size: 20px !important;
+    color: #0c442b !important;
+ }
+ .icon{
+    margin-left: 80px !important;
+ }
+.sec-11 .sec-11-icon  .icon-join .icon .join-1{
+    width: 70px !important;
+    height: 70px !important;
+    position:  absolute !important;
+ }
+.sec-11 .sec-11-icon .icon-join .icon .join-2{
+    width: 70px !important;
+    height: 70px !important;
+    position:  absolute !important;
+ }
+.sec-11 .sec-11-icon  .icon-join .icon .join-2 .i-2{
+    font-size: 60px !important;
+    margin-left: 8px !important;
+    margin-top: 16px !important;
+    background: linear-gradient(to top , #0c81a5 0%, #001131 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+.sec-11 .sec-11-icon .icon-join .icon .join-1 .i-1{
+    font-size: 80px !important;
+    background: linear-gradient(to bottom , #0c81a5 0%, #001131 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .sec-11-icon .icon-join:hover .icon .join-1 .i-1{
+    background: linear-gradient(to top , #0c81a5 0%, #001131 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .sec-11-icon .icon-join:hover .icon .join-2 .i-2{
+    margin-left: 12px !important;
+    background: linear-gradient(to bottom , #0c81a5 0%, #001131 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .icon-2{
+    margin-left: 80px !important;
+ }
+ .sec-11 .sec-11-icon  .icon-join .icon-2 .join-1{
+    width: 70px !important;
+    height: 70px !important;
+    position:  absolute !important;
+ }
+.sec-11 .sec-11-icon .icon-join .icon-2 .join-2{
+    width: 70px !important;
+    height: 70px !important;
+    position:  absolute !important;
+ }
+.sec-11 .sec-11-icon  .icon-join .icon-2 .join-2 .i-2{
+    font-size: 50px !important;
+    margin-left: 4px !important;
+    margin-top: 14px !important;
+    background: linear-gradient(to top , #6bd2f1 0%, #213c6e 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+.sec-11 .sec-11-icon .icon-join .icon-2 .join-1 .i-1{
+    font-size: 80px !important;
+    background: linear-gradient(to bottom , #6bd2f1 0%, #213c6e 100%)  !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .sec-11-icon .icon-join:hover .icon-2 .join-1 .i-1{
+    background: linear-gradient(to top , #6bd2f1 0%, #213c6e 100%)  !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .sec-11-icon .icon-join:hover .icon-2 .join-2 .i-2{
+    margin-left: 12px !important;
+    background: linear-gradient(to bottom , #6bd2f1 0%, #213c6e 100%)  !important;
+    background-clip: text !important;
+    color: transparent !important;
+    margin-left: 3px !important;
+    margin-top: 14px !important;
+ }
+/* ////////////////////////////////////////////// */
+.icon-3{
+    margin-left: 80px !important;
+ }
+ .sec-11 .sec-11-icon  .icon-join .icon-3 .join-1{
+    width: 70px !important;
+    height: 70px !important;
+    position:  absolute !important;
+ }
+.sec-11 .sec-11-icon .icon-join .icon-3 .join-2{
+    width: 70px !important;
+    height: 70px !important;
+    position:  absolute !important;
+ }
+.sec-11 .sec-11-icon  .icon-join .icon-3 .join-2 .i-2{
+    font-size: 55px !important;
+    margin-left: 4px !important;
+    margin-top: 14px !important;
+    background: linear-gradient(to top , #f7db5d 0%,#da6c13 20%, #ac0b5b 50%, #750362 70%, #8a0d2c 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+.sec-11 .sec-11-icon .icon-join .icon-3 .join-1 .i-1{
+    font-size: 80px !important;
+    background: linear-gradient(to bottom , #f7db5d 0%,#da6c13 20%, #ac0b5b 50%, #750362 70%, #8a0d2c 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .sec-11-icon .icon-join:hover .icon-3 .join-1 .i-1{
+    background: linear-gradient(to top , #f7db5d 0%,#da6c13 20%, #ac0b5b 50%, #750362 70%, #8a0d2c 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .sec-11-icon .icon-join:hover .icon-3 .join-2 .i-2{
+    margin-left: 12px !important;
+    background: linear-gradient(to bottom , #f7db5d 0%,#da6c13 20%, #ac0b5b 50%, #750362 70%, #8a0d2c 100%)  !important;
+    background-clip: text !important;
+    color: transparent !important;
+    margin-left: 3px !important;
+    margin-top: 14px !important;
+ }
+/* /////////////////////////////////////////////////// */
+.icon-4{
+    margin-left: 80px !important;
+ }
+ .sec-11 .sec-11-icon  .icon-join .icon-4 .join-1{
+    width: 70px !important;
+    height: 70px !important;
+    position:  absolute !important;
+ }
+.sec-11 .sec-11-icon .icon-join .icon-4 .join-2{
+    width: 70px !important;
+    height: 70px !important;
+    position:  absolute !important;
+ }
+.sec-11 .sec-11-icon  .icon-join .icon-4 .join-2 .i-2{
+    font-size: 55px !important;
+    margin-left: 4px !important;
+    margin-top: 14px !important;
+    background: linear-gradient(to top , #8cf8b9 0%, #097c30 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+.sec-11 .sec-11-icon .icon-join .icon-4 .join-1 .i-1{
+    font-size: 80px !important;
+    background: linear-gradient(to bottom , #8cf8b9 0%, #097c30 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .sec-11-icon .icon-join:hover .icon-4 .join-1 .i-1{
+    background: linear-gradient(to top , #8cf8b9 0%, #097c30 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+ }
+ .sec-11-icon .icon-join:hover .icon-4 .join-2 .i-2{
+    margin-left: 12px !important;
+    background: linear-gradient(to bottom , #8cf8b9 0%, #097c30 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+    margin-left: 3px !important;
+    margin-top: 14px !important;
+ }
+/* /////////////////////////////////////////////////////// */
+.footer-div{
+    background-color: #237955 !important;
+}
+.sec-foot{
+    width: 80% !important;
+}
+.sec-foot .div-11{
+    height: 280px !important;
+    width: 300px !important;
+}
+.sec-foot .div-11 .div-11-1{
+    height: 110px !important;
+}
+.sec-foot .div-11 .div-11-2{
+    height: 150px !important;
+}
+.div-11-1 .div-11-0{
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 20px !important;
+    background-color: rgb(215, 252, 238) !important;
+    box-shadow: 1px 1px 8px 1px #99c9b5  , 0px 0px 8px 1px #99c9b5  !important ;
+}
+.div-11 .div-11-0 img{
+    width: 74px !important;
+    height: 50px !important;
+}
+.input-d .inp1{
+    background-color: #237955 !important;
+}
+.input-d .inp1 , .inp2{
+    height: 35px !important ;
+    /* background-color: #6cecb7 !important; */
+    border: 1px solid  #86c9ad !important ;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INTERIOR FURNITURE STORE</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    
+</head>
+<body>
+  <div class="container-fluid first-icon position-fixed  border-3 border-success overflow-auto mx-auto">
+    <div class="row flex-row-reverse main-icon-1 position-absolute mx-auto">
+      <div class="main-icon-div mt-3"><a href="#" class="text-decoration-none "><i class="fab fa-facebook-square fs-1"></i></a></div>
+      <div class="mt-3"><a href="#" class="text-decoration-none "><i class="fab fa-whatsapp-square fs-1"></i></a></div>
+        <div class="main-icon-div mt-3"><a href="#" class="text-decoration-none "><i class="fab fa-linkedin fs-1"></i></a></div>
+        <div class="main-icon-div mt-3"><a href="#" class="text-decoration-none "><i class="fab fa-instagram-square fs-1"></i></a></div>
+    </div>
+   
+  </div><!--main-icon  -->
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
+        <div class=" container  fixed-top position-absolute position-fixed mx-auto nan-bar" id="navbar">
+          <a class="navbar-brand border-end pe-2" href="#"><img src="Images/logo6.jpg" class="nav-img"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="mx-auto collapse navbar-collapse menu ms-3 mt-1 fs-6" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto  mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light me-4" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light me-4" href="#">PAGE</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light me-4 foc" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BLOG
+                </a>
+                <ul class="dropdown-menu ui-menu border-start-0 border-bottom-0 border-end-0 border-success border-2 " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item ps-1 mt-1 pt-1" href="#">BLOG LIST</a></li>
+                  <li><a class="dropdown-item ps-1 mt-1 pt-1" href="#">GRID COL</a></li>
+                  <li class="border-bottom border-success "><a class="dropdown-item ps-1 mt-1 pt-1" href="#">BLOG ZIGZAG</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item ps-1 mt-1 pt-1" href="#">POST ONE</a></li>
+                  <li><a class="dropdown-item ps-1 mt-1 pt-1" href="#">POST TWO</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light me-4 foc" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SHOP
+                </a>
+                <ul class="dropdown-menu  ui-menu border-start-0 border-bottom-0 border-end-0 border-success border-2" aria-labelledby="navbarDropdown">
+                  <li ><a class="dropdown-item ps-1 mt-1 pt-1 " href="#">PRODUCTS</a></li>
+                  <li><a class="dropdown-item ps-1 mt-1 pt-1" href="#">MY CART</a></li>
+                  <li><a class="dropdown-item ps-1 mt-1 pt-1" href="#">CHECKOUT</a></li>
+                  <li><a class="dropdown-item ps-1 mt-1 pt-1" href="#">MY ACOUNT</a></li>
+                  <li><a class="dropdown-item ps-1 mt-1 pt-1" href="#">ORDER TRACKING</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">CONTACT</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 border-0 p-1 me-3 shadow-none" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success p-1 me-3 shadow-none" type="submit">Search</button>
+              <!-- <button class="btn btn-success p-1 me-3 shadow-none" type="button " data-bs-toggle="modal" data-bs-target="#exampleModal" >Login</button> -->
+              <button type="button" class="btn btn-success p-1 me-3 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+              </button>
+            </form>
+          </div>
+      </nav>
+      <div class="div-model modal fade mx-auto mt-5" id="exampleModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog mx-auto">
+          <div class="modal-content">
+            <div class="modal-header modal-header-1 bg-success">
+              <button  class="btn ms-2 fs-5 text-light bg-gradient border-0">Login</button>
+              <button type="button" class="btn-close me-3 shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="container mb-3 model-body pt-4">
+              <label for="recipient-name" class="col-form-label text-success ms-4 fs-5">Email address :</label>
+              <input type="email" class="form-control border-1 border-success mx-auto mt-2 shadow-none" id="recipient-name">
+              <span class="ms-4">We will never share your email with anyone else.</span>
+              <label for="recipient-name" class="col-form-label text-success ms-4 fs-5 mt-2 ">Pasword :</label>
+              <input type="password" class="form-control border-1 border-success mx-auto mt-2 shadow-none" id="recipient-name">
+            </div>
+            <div class="form-check form-switch ps-5 mt-1">
+              <input class="form-check-input shadow-none mt-2" type="checkbox" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label ps-2 text-success fw-semibold" for="flexSwitchCheckChecked">Remmember me</label>
+            </div>
+            <div class="modal-footer mx-auto">
+              <button type="button" class="btn btn1 btn-success h-50 shadow-none">login</button>
+              <button type="button" class="btn btn2 btn-secondary h-50 shadow-none" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="main-icon">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-whatsapp-square"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-instagram-square"></i>
+        </div>main-icon  -->
+       </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide mt-0  main" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active main-btn " aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="active main-btn " aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="active main-btn " aria-label="Slide 3"></button>
+      </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="fas fa-angle-double-left fs-2" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class=" fas fa-angle-double-right fs-2" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="Images/main-3.jpg" class=" d-block w-100 ">
+            
+            <div class="carousel-caption  d-md-block  ">
+              
+              <h5 class=" mt-3 text-light fs-2">Creating Through Design</h5>
+              <p class=" mt-3">interior design aims to create spaces that not only look visually appealing but also enhance the well-being and quality of life.</p>
+              <button class="btn btn-1 border-0 mt-3 text-light me-2 shadow-none " type="submit">Get startdr</button>
+              <button type="button" class="btn btn-2 border-0 text-light shadow-none mt-3">View More</button>
+              
+            </div>
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="Images/main-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block  ">
+              
+              <h5 class="mt-3 text-light fs-2">Your Signature Style</h5>
+              <p class="mt-3">Interior design encompasses various aspects, including selecting and arranging furniture, choosing color schemes.</p>
+              <button class="btn btn-1 border-0 mt-3 text-light me-2" type="submit">Get startdr</button>
+              <button type="button" class="btn btn-2 border-0 mt-3 text-light ">View More</button>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/main-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-blo">
+              <h5 class="mt-3 text-light fs-2">Where Style Meets Comfort </h5>
+              <p class="mt-3">Interior design encompasses various aspects, including selecting and arranging furniture, choosing color schemes.</p>
+              <button class="btn btn-1 border-0 mt-3 text-light me-2" type="submit">Get startdr</button>
+              <button type="button" class="btn btn-2 border-0 mt-3 text-light">View More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ///////////////////////////////////////////////////// -->
+    <div class="sec-div-1 container mx-auto ">
+        <div class="sec-div-1-1 row">
+        <div class="container sec-div-2 row mx-auto mt-4 pt-4 rounded-3 col-12 col-lg-12 col-sm-12">
+          <h2 class=" ps-5">Welcom</h2>
+          <p class=" ps-5 pe-5 text-success">At Interioz, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.</p>
+          <button type="button" class="btn ms-5 pb-1 shadow-none rounded-1 border-0" style="width: 120px; height: 40px;   font-size: 20px !important;
+          color: rgb(255, 255, 255) !important;background-color: rgb(50, 131, 100) !important ;">Know More</button>
+        </div><!-- welcom -->
+        <div class="container sec-div-3 mt-4 mx-auto rounded-3  col-12 col-lg-12 col-sm-12">
+          <h2 class=" text-center pt-5 ">Spicifications - Design</h2>
+          <!-- <img src="Images/sec-2-1.jpg"> -->
+        </div><!-- design -->
+        <div class="container accordion accordion-flush mx-auto mt-4  col-12 col-lg-12 col-sm-12" id="accordionFlushExample">
+          <div class="accordion-item border-light">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed ps-4 pe-3 text-light border-end-0 fs-5 shadow-lg z-n1"  style="height: 40px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">        
+                Design concept
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body ps-4 pt-4" style="height: 80px;">This outlines the overall vision for the space, including the style, color palette, and design elements that will be used.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-light">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed ps-4 pe-3 text-light fs-5 shadow-lg z-3"  style="height: 40px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Floor plans and elevations
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body ps-4 pt-4" style="height: 100px;">hese are detailed drawings that show the layout of the space, including the placement of walls, windows, doors, and furniture.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-light">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed ps-4 pe-3 text-light fs-5 shadow-lg z-2"  style="height: 40px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Material and finishes
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body ps-4 pt-4" style="height: 80px;">This includes the selection of materials such as flooring, wall finishes, and lighting fixtures that will be used in the space.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-light">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed ps-4 pe-3 text-light border-end-0 fs-5 shadow-lg z-1" style="height: 40px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Furniture and accessories
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" style="height: 120px;"  aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body ps-4 pt-3" style="height: 95px;" >This specifies the type of furniture and accessories that will be used to furnish the space, including the style, color, and placement.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-light">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed ps-4 pe-3 text-light shadow-lg z-0 fs-5 "  style="height: 40px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Lighting design
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse w-100" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body ps-4 pt-4  w-100" style="height: 80px;">This outlines the lighting plan for the space, including the type and placement of light fixtures.</div>
+            </div>
+          </div>
+        </div><!-- accor -->
+      </div><!-- sec-div-1-1 -->
+      </div><!-- sec-div-1 -->
+      <!-- //////////////////////////////////////////////////////// -->
+      
+  
+<div class=" mx-auto container">
+  <div class="row justify-content-evenly">
+        <div class=" sec-5-div2 mx-auto col-12 col-lg-12 col-md-12 col-sm-12 mt-4">
+          <div class="sec-5-1 pt-2" style="height: 60px;">
+            <h2 class="text-center my-1">Translate From Arabic to English</h2>
+          </div>
+          <div class="sec-5-div pt-4 row justify-content-evenly">
+            <div class="sec-5-div-5">
+              <h2 class="fs-4 "><span>Write and Translate</span> Please Here</h2>
+              <button type="button" class="btn btn1 text-light shadow-none mt-3 " onclick="callAlert('the text has been copied')" > 
+              Copy
+              <span class="spn1">Copied</span>
+              <span class="spn2">Copy to Clipboard</span>
+              </button>
+            </div>
+            <div class="sec-5-div-1"><textarea class="pt-2 ps-3 border-0" placeholder="translate :"></textarea></div>
+          </div>
+        </div> <!-- transilat1 -->
+        <div class=" sec-5-div2 mx-auto col-12 col-lg-12 col-md-12 col-sm-12 mt-4">
+          <div class="sec-5-1 pt-2" style="height: 60px;">
+            <h2 class="text-center my-1">Translate From Arabic to French</h2>
+          </div>
+          <div class="sec-5-div pt-4 row justify-content-evenly">
+            <div class="sec-5-div-5">
+              <h2 class="fs-4 "><span>Write and Translate</span> Please Here</h2>
+              <button type="button" class="btn btn1 text-light shadow-none mt-3 " onclick="callAlert('the text has been copied')"> 
+                Copy
+                <span class="spn1">Copied</span>
+                <span class="spn2">Copy to Clipboard</span>
+                </button>
+            </div>
+            <div class="sec-5-div-1"><textarea class="pt-2 ps-3 border-0" placeholder="translate :"></textarea></div>
+          </div>
+        </div> <!-- transilat1 -->
+        <div class=" sec-5-div2 mx-auto col-12 col-lg-12 col-md-12 col-sm-12 mt-4">
+          <div class="sec-5-1 pt-2" style="height: 60px;">
+            <h2 class="text-center my-1">Translate From Arabic to Korean</h2>
+          </div>
+          <div class="sec-5-div pt-4 row justify-content-evenly">
+            <div class="sec-5-div-5">
+              <h2 class="fs-4 "><span>Write and Translate</span> Please Here</h2>
+              <button type="button" class="btn btn1 text-light shadow-none mt-3 " onclick="callAlert('the text has been copied')"> 
+                Copy
+                <span class="spn1">Copied</span>
+                <span class="spn2">Copy to Clipboard</span>
+                </button>
+            </div>
+            <div class="sec-5-div-1"><textarea class="pt-2 ps-3 border-0" placeholder="translate :"></textarea></div>
+          </div>
+        </div> <!-- transilat1 -->
+       
+  </div>
+</div>
+    <!-- ////////////////////// ///////////////////////////////////////// -->
+<div class="container-fluid mt-5 h-100">
+  <div class="row position-relative h-100">
+    <div class="sec-6 w-100 position-relative col-12 col-lg-12 col-md-12 col-sm-12">
+      <div class="sec-6-1 position-absolute w-100">
+       <div class="sec-6-overlay text-center text-light pt-5 position-relative">
+        <h2 class="h2-overlay position-absolute">INTERIOR FURNITURE STORE</h2>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ///////////////////////////-special design -//////////////////////////////////////////////// -->
+<div class="container-fluid">
+  <div class="row ">
+    <div class="sec-7-special mt-5 text-center mx-auto">
+      <h2 class=" mx-auto">Special Designe</h2>
+    </div><!-- sec-7-special -->
+  </div>
+</div>
+<!-- ////////////////////////////////////////////////////////////////////// -->
+<div class="container .sec-7-card mx-auto">
+  <div class=" row card-1 justify-content-evenly ">
+    <div class="card col-12 col-lg-4 col-md-12 col-sm-12 mt-5  ">
+      <div class="card-div mx-auto mt-4">
+        <img src="Images/service-1-1.jpg" class="card-img-top" style="width: 100%; height: 100%;">
+      </div>
+      <div class="card-body mb-1 ps-4 pt-3">
+        <h5 class="card-title" style="color: rgb(50, 131, 100)">Modren Home<br><span>Desigen</span><a href="#" class="btn rounded-0 shadow-none pt-1">Know More</a></h5>
+        <p class="card-text mt-2" style="color: rgb(50, 131, 100)">Modern home plans present rectangular<br> exteriors and super straight lines.</p>
+      </div>
+    </div>
+    <div class="card col-12 col-lg-4 col-md-12 col-sm-12 mt-5  ">
+      <div class="card-div mx-auto mt-4">
+        <img src="Images/hotel.jpg" class="card-img-top" style="width: 100%; height: 100%;">
+      </div>
+      <div class="card-body mb-1 ps-4 pt-3">
+        <h5 class="card-title" style="color: rgb(50, 131, 100)">Hotel Interior<br><span>Desigen</span><a href="#" class="btn rounded-0 shadow-none pt-1">Know More</a></h5>
+        <p class="card-text mt-2" style="color: rgb(50, 131, 100)">Discover the latest and best hotel interior<br>design and architecture projects.</p>
+      </div>
+    </div>
+    <div class="card col-12 col-lg-4 col-md-12 col-sm-12 mt-5 ">
+      <div class="card-div mx-auto mt-4">
+        <img src="Images/office.jpg" class="card-img-top" style="width: 100%; height: 100%;">
+      </div>
+      <div class="card-body mb-1 ps-4 pt-3">
+        <h5 class="card-title" style="color: rgb(50, 131, 100)">Home Office<br><span>Desigen</span><a href="#" class="btn rounded-0 shadow-none pt-1">Know More</a></h5>
+        <p class="card-text mt-2" style="color: rgb(50, 131, 100)">Discover inspiration for your home office<br> design with ideas for decor.</p>
+      </div>
+    </div>
+    <div class="card col-12 col-lg-4 col-md-12 col-sm-12 mt-5 ">
+      <div class="card-div mx-auto mt-4">
+        <img src="Images/main-4.jpg" class="card-img-top" style="width: 100%; height: 100%;">
+      </div>
+      <div class="card-body mb-1 ps-4 pt-3">
+        <h5 class="card-title" style="color: rgb(50, 131, 100)">Appartments<br><span>Desigen</span><a href="#" class="btn rounded-0 shadow-none pt-1">Know More</a></h5>
+        <p class="card-text mt-2" style="color: rgb(50, 131, 100)">Modern home plans present rectangular<br> exteriors and super straight lines.</p>
+      </div>
+    </div>
+    <div class="card col-12 col-lg-4 col-md-12 col-sm-12 mt-5 ">
+      <div class="card-div mx-auto mt-4">
+        <img src="Images/service-1-2.jpg" class="card-img-top" style="width: 100%; height: 100%;">
+      </div>
+      <div class="card-body mb-1 ps-4 pt-3">
+        <h5 class="card-title" style="color: rgb(50, 131, 100)">Special Bedroom<br><span>Desigen</span><a href="#" class="btn rounded-0 shadow-none pt-1">Know More</a></h5>
+        <p class="card-text mt-2" style="color: rgb(50, 131, 100)">Discover the latest and best hotel interior<br>design and architecture projects.</p>
+      </div>
+    </div>
+    <div class="card col-12 col-lg-4 col-md-12 col-sm-12 mt-5 ">
+      <div class="card-div mx-auto mt-4">
+        <img src="Images/dinig.jpg" class="card-img-top" style="width: 100%; height: 100%;">
+      </div>
+      <div class="card-body mb-1 ps-4 pt-3">
+        <h5 class="card-title" style="color: rgb(50, 131, 100)">Dining Room<br><span>Desigen</span><a href="#" class="btn rounded-0 shadow-none pt-1">Know More</a></h5>
+        <p class="card-text mt-2" style="color: rgb(50, 131, 100)">A modern dining room interior design<br>consists of sleek lines and neutral tones..</p>
+      </div>
+    </div>
+    <div class="card col-12 col-lg-4 col-md-12 col-sm-12 mt-5 ">
+      <div class="card-div mx-auto mt-4">
+        <img src="Images/kids-2.jpg" class="card-img-top" style="width: 100%; height: 100%;">
+      </div>
+      <div class="card-body mb-1 ps-4 pt-3">
+        <h5 class="card-title" style="color: rgb(50, 131, 100)">Kids Room<br><span>Desigen</span><a href="#" class="btn rounded-0 shadow-none pt-1">Know More</a></h5>
+        <p class="card-text mt-2" style="color: rgb(50, 131, 100)">Kids bedroom design for your home along<br>with wardrobes, study table, and play area.</p>
+      </div>
+    </div>
+    <div class="card col-12 col-lg-4 col-md-12 col-sm-12 mt-5  ">
+      <div class="card-div mx-auto mt-4">
+        <img src="Images/service-1-6.jpg" class="card-img-top" style="width: 100%; height: 100%;">
+      </div>
+      <div class="card-body mb-1 ps-4 pt-3">
+        <h5 class="card-title" style="color: rgb(50, 131, 100)">Bathroom<br><span>Desigen</span><a href="#" class="btn rounded-0 shadow-none pt-1">Know More</a></h5>
+        <p class="card-text mt-2" style="color: rgb(50, 131, 100)">Discover the latest and best hotel interior<br>design and architecture projects.</p>
+      </div>
+    </div> 
+  </div>
+</div>
+<!-- ////////////////////////////////////////////////////////// -->
+<div class="container-fluid mt-5 h-100">
+  <div class="row position-relative h-100">
+    <div class="sec-8 w-100 position-relative col-12 col-lg-12 col-md-12 col-sm-12 ">
+      <div class="sec-8-1 position-absolute w-100">
+        <div class="sec-8-overlay text-light ">
+          <div class="sec-8-icon mx-auto row pt-5">
+            <div class="sec-8-icon-1 text-center pt-4 col-12 col-lg-3 col-sm-6">
+              <i class="fas fa-project-diagram fs-1 mt-4"></i>
+              <h2 class="fw-bold num mt-2" id="counter">452</h2>
+              <p class= "mt-2">PROJECTS COMPLETED</p>
+            </div>
+            <div class="sec-8-icon-1 text-center pt-4 col-12 col-lg-3 col-sm-6">
+              <i class="fas fa-handshake fs-1 mt-4"></i>
+              <h2 class="fw-bold num mt-2">537</h2>
+              <p class= "mt-2">SATISFIED CLIENTS</p>
+            </div>
+            <div class="sec-8-icon-1 text-center pt-4 col-12 col-lg-3 col-sm-6">
+              <i class="fas fa-chart-line fs-1 mt-4"></i>
+              <h2 class="fw-bold num mt-2">753</h2>
+              <p class= "mt-2">MONTHLY REVENUE</p>
+            </div>
+            <div class="sec-8-icon-1 text-center pt-4 col-12 col-lg-3 col-sm-6">
+              <i class="fas fa-award fs-1 mt-4"></i>
+              <h2 class="fw-bold num mt-2">21</h2>
+              <p class=" mt-2">AWARDS WON</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ////////////////////// - team- //////////////////////////////////////// -->
+ <div class="container-fluid">
+  <div class="row">
+    <div class="sec-9 sec-7-special mt-5 text-center mx-auto">
+      <h2 class="mx-auto">Thanks For</h2>
+    </div>
+  </div>
+ </div>
+ <!-- /////////////////////////////////////////////////////////////////// -->
+  <div class="container mx-auto">
+    <div class="row justify-content-evenly">
+        <div class="sec-9-1 position-relative  col-lg-4 col-sm-12  mt-5">
+            <div class="sec-9-img rounded-5 position-absolute top-0">
+              <img src="Images/team.jpg" class="w-100 h-100">
+            </div>
+            <div class="sec-9-img-1 position-absolute top-0"></div>
+            <div class="sec-9-img-s  mt-1 position-absolute top-50">
+              <img src="Images/team.jpg" class="w-100 h-100 rounded-circle ms-4">
+              <div class="sec-9-img-3 position-absolute top-0 rounded-circle ms-4"></div>
+              <div class=" title1 ps-2  ms-2">
+                <h5 class="text-light">Alex Miles</h5>
+                <p class=" mt-1 text-light">CEO | Founder</p>
+              </div>
+            </div> 
+        </div>
+        <div class="sec-9-1 sec-9-2 position-relative pt-5  col-lg-4 col-sm-12  mt-5">
+          <div class="sec-9-img  rounded-5 position-absolute top-0">
+            <img src="Images/team_01.jpg" class="w-100 h-100">
+          </div>
+          <div class="sec-9-img-1 position-absolute top-0"></div>
+          <div class="sec-9-img-s  mt-1 position-absolute top-50">
+            <img src="Images/team_01.jpg" class="w-100 h-100 rounded-circle ms-4">
+            <div class="sec-9-img-3 position-absolute top-0 rounded-circle ms-4"></div>
+            <div class=" title1 ps-2  ms-2">
+              <h5 class="text-light">Jone Portman</h5>
+              <p class=" mt-1 text-light">Managment | Designer</p>
+            </div>
+          </div>                 
+        </div>
+        <div class="sec-9-1 position-relative  pt-5  col-lg-4 col-sm-12  mt-5">
+          <div class="sec-9-img rounded-5 position-absolute top-0">
+            <img src="Images/team_03.jpg" class="w-100 h-100">
+          </div>
+          <div class="sec-9-img-1  position-absolute top-0"></div>
+          <div class="sec-9-img-s  mt-1 position-absolute top-50 border-0">
+            <img src="Images/team_03.jpg" class="w-100 h-100 rounded-circle ms-4 border-0">
+            <div class="sec-9-img-3 position-absolute top-0 rounded-circle ms-4 border-0"></div>
+            <div class=" title1 ps-2  ms-2">
+              <h5 class="text-light">Tomas Kiel</h5>
+              <p class=" mt-1 text-light">Architest | Designer</p>
+            </div>
+          </div> 
+        </div>
+    </div>
+  </div>
+<!-- ///////////////////////////////////////////////////////////////// -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="sec-9 sec-7-special mt-5 text-center mx-auto">
+      <h2 class="mx-auto">News</h2>
+    </div>
+  </div>
+ </div>
+<!-- ////////////////////////////////// -->
+<div class="container  mx-auto">
+ <div class="row  justify-content-evenly">
+  <div class=" sec-10 shadow mt-5 col-12 col-lg-12 col-sm-12 d-sm-grid">
+    <div class="sec-10-1 d-flex col-sm-12">
+      <div class="sec-10-news position-relative col-sm-12">
+        <div class="news-div pt-1 ps-5 mt-5">
+          <h2 class="pb-2">Customization in Furniture and Decor</h2>
+          <span class=" pb-3 titlt-span"><i class="fas fa-calendar-alt pe-1"></i>Mon, June 15,</span> 2021
+          <div class="line mt-2 rounded-3 col-sm-12"></div>
+          <div class="pragragh-p  ">
+          <p class="mt-2 w-100 fs-6 col-sm-12">Modern architecture emphasizes sustainable design principles, including energy-efficient building  <br/> materials, renewable energy sources, and green roofs. Architects also consider the environmental <br/> impact of the building’s construction and operation, ensuring a minimal carbon footprint.<br/>Passive design strategies focus on optimizing the building’s orientation, insulation, ventilation,<br/> and shading to reduce reliance on mechanical systems for heating, cooling, and lighting</p>
+         </div>
+        <div class="sec-10-icon mt-2 d-flex position-relative col-sm-12">
+          <div class="icon-10 pt-1 text-center border-0 col-sm-12">
+            <a href="#" class="text-decoration-none"><i class="fas fa-tag"></i>
+            <span>Furniture</span></a>
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0 col-sm-12">
+            <a href="#" class="text-decoration-none"><i class="fas fa-clock"></i>
+              <span>45 mins.</span></a>
+            
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0 col-sm-12 ">
+            <a href="#" class="text-decoration-none"><i class="fas fa-play"></i>
+            <span>Play Episode</span></a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="sec-10-img">
+        <img src="Images/sec-10-1.jpg" class="w-100 h-100">
+      </div>
+    </div><!-- sec-10-1 -->
+  
+  </div><!-- sec-10 -->
+  <div class="sec-10 sec-10-2 mt-5 shadow col-12 col-lg-12 col-sm-12">
+    <div class="sec-10-1 d-flex">
+      <div class="sec-10-img-2">
+        <img src="Images/sec-10-2.jpg" class="w-100 h-100">
+      </div>
+      <div class="sec-10-news">
+        <div class="news-div pt-1 ps-5 mt-5">
+          <h2 class="pb-2">Customization in Furniture and Decor</h2>
+          <span class=" pb-3 titlt-span"><i class="fas fa-calendar-alt pe-1"></i>Wed, March 9,</span> 2021
+          <div class="line mt-2 rounded-3 "></div>
+          <div class="pragragh-p">
+          <p class="mt-2 w-100 fs-6 ">Modern architecture emphasizes sustainable design principles, including energy-efficient building materials, renewable energy sources, and green roofs. Architects also consider the environmental <br/> impact of the building’s construction and operation, ensuring a minimal carbon footprint.<br/>Passive design strategies focus on optimizing the building’s orientation, insulation, ventilation,<br/> and shading to reduce reliance on mechanical systems for heating, cooling, and lighting</p>
+        </div>
+        <div class="sec-10-icon mt-2 d-flex">
+          <div class="icon-10 pt-1 text-center border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-tag"></i>
+            <span>Furniture</span></a>
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-clock"></i>
+              <span>45 mins.</span></a>
+            
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-play"></i>
+            <span>Play Episode</span></a>
+          </div>
+        </div>
+        </div>
+      </div>
+     
+    </div><!-- sec-10-1 -->
+  
+  </div><!-- sec-10 -->
+  <div class=" sec-10 shadow mt-5 col-12 col-lg-12 col-sm-12 d-sm-grid">
+    <div class="sec-10-1 d-flex col-sm-12">
+      <div class="sec-10-news position-relative col-sm-12">
+        <div class="news-div pt-1 ps-5 mt-5">
+          <h2 class="pb-2">Customization in Furniture and Decor</h2>
+          <span class=" pb-3 titlt-span"><i class="fas fa-calendar-alt pe-1"></i>Mon, June 15,</span> 2021
+          <div class="line mt-2 rounded-3 col-sm-12"></div>
+          <div class="pragragh-p  ">
+          <p class="mt-2 w-100 fs-6 col-sm-12">Modern architecture emphasizes sustainable design principles, including energy-efficient building  <br/> materials, renewable energy sources, and green roofs. Architects also consider the environmental <br/> impact of the building’s construction and operation, ensuring a minimal carbon footprint.<br/>Passive design strategies focus on optimizing the building’s orientation, insulation, ventilation,<br/> and shading to reduce reliance on mechanical systems for heating, cooling, and lighting</p>
+         </div>
+        <div class="sec-10-icon mt-2 d-flex position-relative col-sm-12">
+          <div class="icon-10 pt-1 text-center border-0 col-sm-12">
+            <a href="#" class="text-decoration-none"><i class="fas fa-tag"></i>
+            <span>Furniture</span></a>
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0 col-sm-12">
+            <a href="#" class="text-decoration-none"><i class="fas fa-clock"></i>
+              <span>45 mins.</span></a>
+            
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0 col-sm-12 ">
+            <a href="#" class="text-decoration-none"><i class="fas fa-play"></i>
+            <span>Play Episode</span></a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="sec-10-img">
+        <img src="Images/sec-10-3.jpg" class="w-100 h-100">
+      </div>
+    </div><!-- sec-10-1 -->
+  
+  </div><!-- sec-10 -->
+  <div class="sec-10 sec-10-2 mt-5 shadow col-12 col-lg-12 col-sm-12">
+    <div class="sec-10-1 d-flex">
+      <div class="sec-10-img-2">
+        <img src="Images/sec-10-4.jpg" class="w-100 h-100">
+      </div>
+      <div class="sec-10-news">
+        <div class="news-div pt-1 ps-5 mt-5">
+          <h2 class="pb-2">Customization in Furniture and Decor</h2>
+          <span class=" pb-3 titlt-span"><i class="fas fa-calendar-alt pe-1"></i>Wed, March 9,</span> 2021
+          <div class="line mt-2 rounded-3 "></div>
+          <div class="pragragh-p">
+          <p class="mt-2 w-100 fs-6 ">Modern architecture emphasizes sustainable design principles, including energy-efficient building materials, renewable energy sources, and green roofs. Architects also consider the environmental <br/> impact of the building’s construction and operation, ensuring a minimal carbon footprint.<br/>Passive design strategies focus on optimizing the building’s orientation, insulation, ventilation,<br/> and shading to reduce reliance on mechanical systems for heating, cooling, and lighting</p>
+        </div>
+        <div class="sec-10-icon mt-2 d-flex">
+          <div class="icon-10 pt-1 text-center border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-tag"></i>
+            <span>Furniture</span></a>
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-clock"></i>
+              <span>45 mins.</span></a>
+            
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-play"></i>
+            <span>Play Episode</span></a>
+          </div>
+        </div>
+        </div>
+      </div>
+     
+    </div><!-- sec-10-1 -->
+  
+  </div><!-- sec-10 -->
+  <!-- <div class=" sec-10 sec-10-2 mt-5 shadow col-12 col-lg-12 col-sm-12">
+    <div class="sec-10-1  d-flex">
+      <div class="sec-10-img-2">
+        <img src="Images/sec-10-4.jpg" class="w-100 h-100">
+      </div>
+      <div class="sec-10-news">
+        <div class="news-div pt-3 ps-5 ">
+          <h2 class="pb-2">Customization in Furniture and Decor</h2>
+          <span class=" pb-3 titlt-span"><i class="fas fa-calendar-alt pe-1"></i>Fri, May 8,</span> 2021
+          <div class="line mt-2 rounded-3 "></div>
+          <div class="pragragh-p">
+          <p class="mt-2 w-100 fs-6 ">Modern architecture emphasizes sustainable design principles, including energy-efficient building materials, renewable energy sources, and green roofs. Architects also consider the environmental <br/> impact of the building’s construction and operation, ensuring a minimal carbon footprint.<br/>Passive design strategies focus on optimizing the building’s orientation, insulation, ventilation,<br/> and shading to reduce reliance on mechanical systems for heating, cooling, and lighting</p>
+        </div>
+        <div class="sec-10-icon mt-3 d-flex">
+          <div class="icon-10 pt-1 text-center border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-tag"></i>
+            <span>Furniture</span></a>
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-clock"></i>
+              <span>45 mins.</span></a>
+            
+          </div>
+          <div class="icon-10 pt-1 text-center ms-2 border-0">
+            <a href="#" class="text-decoration-none"><i class="fas fa-play"></i>
+            <span>Play Episode</span></a>
+          </div>
+        </div>
+        </div>
+      </div>
+     
+    </div><!-- sec-10-1 -->
+  
+  </div>
+ </div>
+</div>
+<!-- /////////////////////////////////////////////////// -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="sec-9 sec-7-special mt-5 text-center mx-auto">
+      <h2 class="mx-auto">Join Us</h2>
+    </div>
+  </div>
+ </div>
+ <!-- ///////////////////////////////////////////////////////// -->
+  
+<div class="container sec-11  mx-auto">
+ <div class="row sec-11-icon  justify-content-evenly text-center">
+   <div class="col-4 col-lg-3 col-sm-12 icon-join pt-4 mt-5 shadow">
+            <h4>Subscribe Now</h4>
+            <div class="icon mx-auto mt-1 pb-3">
+              <div class="join-1 mx-auto text-center mt-3 ">           
+                <i class="fab fa-facebook-square i-1"></i>
+               </div>
+               <div class="join-2 mx-auto text-center mt-3 ">           
+                 <i class="fab fa-facebook-f i-2"></i>
+                </div>
+            </div>
+            <p class="mt-5 pt-5"><a href="#" class="text-decoration-none">Go To Link</a></p>
+   </div>
+   <div class="col-4 col-lg-3 col-sm-12 icon-join pt-4 mt-5 shadow">
+    <h4>Subscribe Now</h4>
+    <div class="icon-4 mx-auto mt-1 pb-3">
+      <div class="join-1 mx-auto text-center mt-3 ">           
+        <i class="fab fa-whatsapp-square i-1"></i>
+       </div>
+       <div class="join-2 mx-auto text-center mt-3 ">           
+        <i class="fab fa-whatsapp i-2"></i>
+        </div>
+    </div>
+    <p class="mt-5 pt-5"><a href="#" class="text-decoration-none">Go To Link</a></p>
+  </div>
+   <div class="col-4 col-lg-3 col-sm-12 icon-join pt-4 mt-5 shadow">
+    <h4>Subscribe Now</h4>
+    <div class="icon-2 mx-auto mt-1 pb-3">
+      <div class="join-1 mx-auto text-center mt-3 ">           
+        <i class="fab fa-twitter-square i-1"></i>
+       </div>
+       <div class="join-2 mx-auto text-center mt-3 ">           
+        <i class="fab fa-twitter i-2"></i>
+        </div>
+    </div>
+    <p class="mt-5 pt-5"><a href="#" class="text-decoration-none">Go To Link</a></p>
+</div>
+<div class="col-4 col-lg-3 col-sm-12 icon-join pt-4 mt-5 shadow">
+  <h4>Subscribe Now</h4>
+  <div class="icon-3 mx-auto mt-1 pb-3">
+    <div class="join-1 mx-auto text-center mt-3 ">           
+      <i class="fab fa-instagram-square i-1"></i>
+     </div>
+     <div class="join-2 mx-auto text-center mt-3 ">           
+      <i class="fab fa-instagram i-2"></i>
+      </div>
+  </div>
+  <p class="mt-5 pt-5"><a href="#" class="text-decoration-none">Go To Link</a></p>
+</div>
+  </div>
+</div>
+<!-- /////////////////////////////////////////////////////// -->
+<footer class="footer footer-div  mt-5 pt-2" id="footer">
+  <dic class="container mx-auto">
+    <div class="row sec-foot  mx-auto justify-content-evenly">
+      <div class="div-11 text-center mt-4 col-lg-4 col-md-12 col-sm-12 text-light">
+        <div class="div-11-1 d-flex border-start-0 border-end-0 border-top border-bottom">       
+          <div class="div-11-0 mt-3 ms-4 ">
+            <img src="Images/foot-img.jpg" class="mt-2">
+          </div>
+          <div class="div-h mt-4 ms-3"> <h2 class="pt-2 fs-2">INTERIOR</h2></div>
+        </div>
+        <div class="div-11-2 mt-3 border-top border-bottom border-end border-start">
+          <p class="fs-6 pt-4">Phone : 01021600147</p>
+          <p class="fs-6 pt-3">Adress : Damietta</p>
+          <p class="fs-6 pt-3">Email : esraashraf1310@gmail.com</p>
+        </div>
+      </div>
+      <div class="div-11 text-center  mt-4 col-4 col-lg-4 col-sm-12 text-light">
+        <div class="div-11-1 d-flex border-start-0 border-end-0 border-top border-bottom">       
+          <div class="div-11-0 mt-3 ms-4 ">
+            <img src="Images/foot-img.jpg" class="mt-2">
+          </div>
+          <div class="div-h mt-4 ms-3"> <h2 class="pt-2 fs-4"> Importatnt Links</h2></div>
+        </div>
+        <div class="div-11-2 mt-3 border-bottom border-end border-start border-top ">
+          <ul class="list-unstyled">
+            <li class="fs-6 pt-4"><a href="#" class="text-decoration-none text-light"><i class="fas fa-chevron-right me-3"></i>Home</a></li>
+            <li class="fs-6 pt-3"><a href="#" class="text-decoration-none text-light"><i class="fas fa-chevron-right me-2"></i> Service</a></li>
+            <li class="fs-6 pt-3"><a href="#" class="text-decoration-none text-light"><i class="fas fa-chevron-right me-1"></i> Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="div-11 text-center mt-4 col-lg-4 col-md-12 col-sm-12 text-light">
+        <div class="div-11-1 d-flex border-start-0 border-end-0 border-top border-bottom ">       
+          <div class="div-11-0 mt-3 ms-4 ">
+            <img src="Images/foot-img.jpg" class="mt-2">
+          </div>
+          <div class="div-h mt-4 ms-3"> <h2 class="pt-2 fs-4">Our Newsletter</h2></div>
+        </div>
+        <div class="div-11-2 mt-3 border-bottom border-end border-start border-top">
+          <p class="fs-6 pt-4">Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <div class="input-d d-flex ms-3 mt-1">
+            <input type="text" class="inp1 rounded-0 shadow-none border-end-0">
+            <input type="submit" value="Subscribe" class="inp2 bg-light me-3 border-0 text-success shadow-none border-start-0">
+          </div>
+        </div>
+      </div>
+      <div class=" mt-4 text-center col-lg-12 col-md-12 col-sm-12 text-light mb-4">
+            <div class=" border-start-0 border-end-0 border-top border-bottom text-center pb-2" style="font-size: clamp(.5rem, 2.5vw, 1rem) !important;">
+              <p class="d-inline">&copy;Copyright</p><span class="fs-2  border-end border-start ms-2 pb-2 ">&nbsp; INTERIOR &nbsp;</span><span class=" ms-2">All Rights Reserved</span>           
+            </div>
+      </div>
+    </div>  
+      </div>
+    </div>
+   
+  </div>
+</footer>
+
+   <script>
+    function callAlert(msg) {
+    alert(msg)
+}
+   </script>
+    <script  src="js/bootstrap.min.js"></script>
+    <script  src="js/script.js"></script>
+</body>
+</html>
